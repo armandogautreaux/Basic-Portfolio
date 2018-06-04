@@ -274,7 +274,65 @@ img {
     padding-top:8px;
 }
 
+/*
+  ========================================
+  6. Portfolio
+  ========================================
+*/
 
+
+/*
+  ========================================
+  6. Contact
+  ========================================
+*/
+
+ form {
+     margin-bottom: 22px;
+ }
+
+ input,
+ textarea {
+     font: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+ }
+
+ .contact-form label {
+     color: #666;
+     font-weight: 100;  
+     cursor: pointer;
+ }
+
+ .contact-form input,
+ .contact-form textarea {
+     color: lightgrey;
+     display: block;
+     margin: 10px 0 20px 0;
+     padding: 5px 8px;
+     border: 1px solid #ddd;
+ }
+
+ .contact-form input,
+ .contact-form textarea {
+     width: 100%;
+ }
+
+ .contact-form textarea{
+     height: 206px;
+ }
+
+ .btn-default {
+     background: #4aaaa5;
+     color: #fff;
+     font-size: 14px;
+     width: 118px;
+     padding: 11px 30px;
+     border: 0;
+ }
+
+ .btn-default:hover {
+     background: #666;
+ }
 
 
 
