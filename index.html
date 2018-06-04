@@ -1,48 +1,86 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <meta charset="utf-8">
         <title>Armando Gautreaux's Portfolio</title>
+        <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
 
     <body>
-        <header>
 
-            <h1 class="logo">Armando <br> Gautreaux</h1>
+        <!-- Main Header -->
 
-            <nav class="nav primary-nav">
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="porfolio.html">Porfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+        <header class="primary-header group">
+            <div class="container">
 
+               <h1 class="logo"> <!-- Logo starts here-->
+                    <a href="index.html">
+                        Armando Gautreaux
+                    </a>
+                </h1> <!-- Logo ends here-->
+
+                <nav class="nav primary-nav"> <!-- Navigation starts here -->
+                    <ul>
+                        <li>
+                            <a href="index.html" class="active">
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="portfolio.html">
+                                Porfolio
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contact.html">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </nav> <!-- Navigation ends here -->
+
+            </div>
         </header>
 
         <!-- Main Content -->
-        <section class="row">
-            <div class="grid">
-                <section class="about">
-                    <h2>About Me</h2>
-                    <hr>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elementum sapien non diam bibendum vestibulum. Proin et diam magna. Suspendisse sit amet arcu metus. Sed id bibendum orci. Nulla ac tellus at sapien luctus dictum sed a ligula. Duis hendrerit in est ultricies porttitor. Suspendisse id erat at nunc elementum suscipit vitae quis ligula. Nunc rhoncus sodales arcu vel fringilla. Nam tincidunt turpis in mi dictum euismod. Praesent pulvinar massa sit amet ante dapibus consectetur. Vivamus interdum metus varius, viverra nibh molestie, tristique lacus. Fusce massa felis, aliquet non neque a, commodo posuere ex. Nunc vel ornare lorem. Aliquam sollicitudin fringilla rutrum.</p>
 
-                    <p>Aenean eu aliquam mauris, a semper dolor. Duis ut condimentum risus, interdum ultrices tortor. Vestibulum accumsan, eros id lobortis faucibus, quam neque facilisis felis, vel pulvinar ipsum arcu non velit. Cras semper nulla in risus tincidunt, in varius urna pretium. Donec rhoncus, sem sed bibendum rhoncus, nisl est tristique nisl, et vehicula odio arcu ac metus. Donec consequat risus eu augue feugiat vulputate. Duis bibendum quam eu urna congue, vel suscipit metus euismod. Ut tempus metus non porta iaculis. Cras egestas est augue.</p>
-                            
-                    <p>>Nulla leo felis, dapibus ac efficitur vel, tristique eu sem. Etiam sit amet dolor ut ante viverra semper. Integer tincidunt orci mi, vel molestie neque egestas nec. Cras a scelerisque purus. Mauris et ligula fringilla, ultrices enim id, molestie purus. Quisque iaculis nisi vel ex pulvinar tristique. Phasellus rhoncus, velit vitae mattis molestie, quam leo gravida ex, in pretium eros ante eget lectus. Sed rutrum, sapien eget dapibus hendrerit, tortor mi tincidunt elit, tempus laoreet nulla lectus sed sem. Ut venenatis interdum purus a vulputate.</p>
-                    
-                </section>
-            </div>
+        <section class="main container">
+
+            <h2 class="title">About Me</h2> <!-- Title -->
+
+            <div class="content"> <!-- Content starts here -->
+
+                <img src="assets/images/about-me.jpg" class="float-image">
+
+                <p>
+                    Hello, my name is Armando and I have created this website as part of my first homework from the SMU Coding Program. The present theme is made up of 3 parts. The first page, is this site (index.html), which includes a navigation bar in the top with some hover effects, a main content section, where this information is being displayed (About Me), and a basic footer with an achor link, to return to this homepage everytime that is clicked.
+                </p>
+                <p>
+                    The second page is called portfolio, in there, I have include some random pictures that represent future projects that I will develop during this academic program.
+                </p>
+                <p>
+                    Finally, the last part of this Website is a contact section, where, I have added a simple contact form so people who have questions about my projects can reach out to me. Overall, this is what this website is all about. Thank You for reading.
+                </p>
+
+            </div> <!-- Content ends here -->
+
         </section>
 
-        <!-- Footer -->
-        <footer class="primary-footer container-group">
-            <small>Copyright &copy;</small>
+        <!-- Main Footer -->
+
+        <footer class="primary-footer group">
+            <div class="container">
+
+                <small>
+                    <a href="index.html">
+                        Copyright &copy;
+                    </a>
+                </small> 
+
+            </div>
         </footer>
 
-
     </body>
-
 </html>
